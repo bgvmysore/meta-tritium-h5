@@ -1,33 +1,20 @@
-This README file contains information on the contents of the meta-tritium-h5 layer.
-
-Please see the corresponding sections below for details.
+OpenEmbedded Layer for allwinner based libretech all-h3-cc H5 board (or tritium-h5). This Layer provides the bare minimum BSP for tritium-h5 to boot.
 
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
-
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
+  URI: https://git.yoctoproject.org/poky
+  branch: kirkstone
 
 Patches
 =======
 
-Please submit any patches against the meta-tritium-h5 layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
-
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Please submit any changes as a github pullrequest.
 
 Table of Contents
 =================
 
   I. Adding the meta-tritium-h5 layer to your build
- II. Misc
 
 
 I. Adding the meta-tritium-h5 layer to your build
@@ -35,7 +22,3 @@ I. Adding the meta-tritium-h5 layer to your build
 
 Run 'bitbake-layers add-layer meta-tritium-h5'
 
-II. Misc
-========
-
---- replace with specific information about the meta-tritium-h5 layer ---
